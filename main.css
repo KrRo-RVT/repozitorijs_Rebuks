@@ -41,7 +41,7 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background: #bb7e8c;
+    background-image: url(https://t3.ftcdn.net/jpg/01/04/94/88/360_F_104948871_xsXOz7JdVHtfgYgbRcrTaORTRCcUiKmV.jpg);
     color: white;
 }
 
@@ -105,7 +105,11 @@ nav a:hover {
 
 footer {
     background: #ffffff;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     margin-top: 40px;
+}
+
+select {
+    width: 110px;
 }
