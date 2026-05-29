@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #dfe6e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTikl0TFyoYX2I1mIre_3agfFgjSPlU8k2icQ&s');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.game {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #2d3436;
+}
+
+.score-text {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+#score {
+  color: #0984e3;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+#workBtn {
+  background: #0984e3;
+  color: white;
+}
+
+#workBtn:hover {
+  background: #0873c4;
+}
+
+.shop h2 {
+  margin-top: 25px;
+  color: #2d3436;
+}
+
+#coffeeUpgrade {
+  background: #fdcb6e;
+}
+
+#keyboardUpgrade {
+  background: #55efc4;
+}
+
+#assistantUpgrade {
+  background: #a29bfe;
+}
+hr {
+  margin: 25px 0;
+}
+
+#casino {
+  margin-top: 20px;
+}
+
+#slotMachine {
+  font-size: 40px;
+  margin: 20px 0;
+  background: #2d3436;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
+
+#spinBtn {
+  background: #e17055;
+  color: white;
+}
+
+#spinBtn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+#casinoMessage {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2d3436;
+}
+
+#casinoTimer {
+  color: #d63031;
+  font-weight: bold;
+}

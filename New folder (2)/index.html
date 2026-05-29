@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ofisa Rutīna Klikers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game">
+    <h1>Ofisa Rutīna</h1>
+
+    <p class="score-text">
+      Izpildītie darbi:
+      <span id="score">0</span>
+    </p>
+
+    <button id="workBtn">
+      Pildīt darbu
+    </button>
+
+    <div class="shop">
+
+      <h2>Uzlabojumi</h2>
+
+      <button id="coffeeUpgrade">
+        Kafija (+1 darbam) - cena: <span id="coffeeCost">15</span>
+      </button>
+
+      <button id="keyboardUpgrade">
+        Ātrāka klaviatūra (+5 darbam) - cena: <span id="keyboardCost">50</span>
+      </button>
+
+      <button id="assistantUpgrade">
+        Praktikants (+1 darbinieks, kurš strādā par tevi) - cena: <span id="assistantCost">100</span>
+      </button>
+
+    </div>
+    <hr>
+
+  <div id="casino">
+    <h2>Ofisa Kazino</h2>
+
+    <p>
+      Slots aktivizēsies ik pēc 1 minūtes uz 30 sekundēm!
+    </p>
+
+    <p id="casinoTimer"></p>
+
+    <div id="slotMachine">
+      ❔ ❔ ❔
+    </div>
+
+    <button id="spinBtn" disabled>
+      Griez Slotus!!!
+    </button>
+    <p>Likme:</p>
+    <input type="number" id="betAmount" value="20" min="5" step="5">
+    <p id="casinoMessage"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
